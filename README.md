@@ -89,7 +89,3 @@ Contributions to the Solar Energy Analysis project are welcome! If you have any 
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-Feel free to customize and expand upon this README file based on your specific project details, add more sections if needed, and include any additional information that would be helpful for users and contributors.
