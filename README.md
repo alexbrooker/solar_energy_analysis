@@ -2,6 +2,8 @@
 
 Welcome to the Solar Energy Analysis project! This repository contains code and data for analyzing solar energy export and consumption data from a residential solar system, exported from the UK octopus website. The goal of this project is to provide insights into the performance of the solar system, identify trends and patterns, and assess the overall energy balance.
 
+![Figure_1](https://github.com/alexbrooker/solar_energy_analysis/assets/23118281/1c08c149-7b51-4e33-a2c2-75f9f6770270)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Data](#data)
@@ -21,6 +23,16 @@ The repository includes two CSV files containing the solar energy export and con
 - `consumption_data.csv`: Contains the consumed energy data from the household, with columns for timestamp and consumed energy in kWh.
 
 The data covers a period from 2nd June 2023 to 10th Jue 2024 and is recorded at 30-minute intervals.
+
+Example data:
+| Export (kWh) | Start | End |
+| --- | --- | --- |
+| 0.03400000000000000000 | 2023-06-02T01:00:00+01:00 | 2023-06-02T01:30:00+01:00 |
+| 0.03500000000000000000 | 2023-06-02T01:30:00+01:00 | 2023-06-02T02:00:00+01:00 |
+| 0.03400000000000000000 | 2023-06-02T02:00:00+01:00 | 2023-06-02T02:30:00+01:00 |
+| 0.03500000000000000000 | 2023-06-02T02:30:00+01:00 | 2023-06-02T03:00:00+01:00 |
+| 0.03400000000000000000 | 2023-06-02T03:00:00+01:00 | 2023-06-02T03:30:00+01:00 |
+| 0.03500000000000000000 | 2023-06-02T03:30:00+01:00 | 2023-06-02T04:00:00+01:00 |
 
 ## Analysis
 The analysis is performed using Python and various data analysis and visualization libraries, including:
