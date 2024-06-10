@@ -1,6 +1,6 @@
-# Solar Energy Analysis
+# Solar Energy Analysis for Smart Meter Export Data
 
-Welcome to the Solar Energy Analysis project! This repository contains code and data for analyzing solar energy export and consumption data from a residential solar system. The goal of this project is to provide insights into the performance of the solar system, identify trends and patterns, and assess the overall energy balance.
+Welcome to the Solar Energy Analysis project! This repository contains code and data for analyzing solar energy export and consumption data from a residential solar system, exported from the UK octopus website. The goal of this project is to provide insights into the performance of the solar system, identify trends and patterns, and assess the overall energy balance.
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -20,7 +20,7 @@ The repository includes two CSV files containing the solar energy export and con
 - `export_data.csv`: Contains the exported energy data from the solar system, with columns for timestamp and exported energy in kWh.
 - `consumption_data.csv`: Contains the consumed energy data from the household, with columns for timestamp and consumed energy in kWh.
 
-The data covers a period from [start date] to [end date] and is recorded at 30-minute intervals.
+The data covers a period from 2nd June 2023 to 10th Jue 2024 and is recorded at 30-minute intervals.
 
 ## Analysis
 The analysis is performed using Python and various data analysis and visualization libraries, including:
