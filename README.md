@@ -67,6 +67,11 @@ python solar_energy_analysis.py
 
 The script will generate visualizations and print the export to consumption ratio for each month.
 
+## Download your own data from octopus.energy
+Log into your octopus account and navigate to the usage page, scroll to the bottom of the page and export your export and consumption data to your local machine.
+![image](https://github.com/alexbrooker/solar_energy_analysis/assets/23118281/b56702c8-a03a-4d28-a02f-82796b068b0c)
+
+
 ## Results
 The analysis provides several key findings and visualizations, including:
 - Daily solar energy export and consumption trends
